@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NyxLog — Plataforma de Gestão Logística que enxerga no escuro</title>
+  <meta name="description" content="NyxLog é o TMS que rastreia, despacha e decide por você. Etiquetagem automática nos Correios e Loggi, portal do cliente, dashboards e previsão de entrega." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NyxLog — Gestão Logística inteligente" />
+  <meta property="og:description" content="Rastreie, despache e decida. Etiquetas automáticas, integração com transportadoras, dashboards e portal do cliente." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/owl-gold.png" />
+
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="NyxLog - início">
+        <img src="assets/owl-gold.png" alt="" class="brand-owl" />
+        <span class="brand-name">Nyx<span class="brand-accent">Log</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#recursos">Recursos</a>
+        <a href="#fiscal">Fiscal</a>
+        <a href="#financeiro">Financeiro</a>
+        <a href="#integracoes">Integrações</a>
+        <a href="#contato" class="nav-cta">Agendar demo</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-grid"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot"></span> Plataforma completa · TMS + Fiscal + Financeiro</span>
+        <h1>Toda a sua logística<br><span class="grad">em uma só plataforma.</span></h1>
+        <p class="hero-sub">
+          Rastreie entregas, emita <b>CT-e, MDF-e e nota fiscal</b> e controle
+          todo o <b>financeiro</b> da sua operação — do primeiro envio ao fluxo de caixa.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-gold">Agendar demonstração</a>
+          <a href="#recursos" class="btn btn-ghost">Ver recursos ↓</a>
+        </div>
+        <div class="hero-trust">
+          <span>Integrado com</span>
+          <img src="assets/correios.png" alt="Correios" />
+          <img src="assets/loggi.png" alt="Loggi" />
+          <span class="more">+ transportadoras</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="owl-stage">
+          <div class="owl-ring"></div>
+          <div class="owl-ring ring2"></div>
+          <img src="assets/owl-gold.png" alt="Coruja NyxLog" class="hero-owl" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><div class="stat-num" data-target="250" data-suffix="k+">0</div><div class="stat-label">Encomendas rastreadas</div></div>
+      <div class="stat"><div class="stat-num" data-target="99" data-suffix="%">0</div><div class="stat-label">Etiquetas sem retrabalho</div></div>
+      <div class="stat"><div class="stat-num" data-target="24" data-suffix="/7">0</div><div class="stat-label">Operação monitorada</div></div>
+      <div class="stat"><div class="stat-num" data-target="12" data-suffix="+">0</div><div class="stat-label">Integrações logísticas</div></div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUTO ===================== -->
+  <section class="section" id="produto">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">O que é o NyxLog</span>
+        <h2>Um só lugar para <span class="u">rastrear</span>, <span class="u">despachar</span> e <span class="u">decidir</span>.</h2>
+        <p class="lead">
+          Chega de planilhas, sites de transportadora abertos em dez abas e etiqueta
+          digitada na mão. O NyxLog concentra toda a sua operação de envios em uma
+          plataforma única — rápida, integrada e feita para quem despacha de verdade.
+        </p>
+      </div>
+
+      <div class="pillars">
+        <article class="pillar">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Rastrear</h3>
+          <p>Cada encomenda com status em tempo real, previsão de entrega e histórico completo — do coleta ao recebido.</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11.5 11 4a2 2 0 0 1 1.4-.6H19a2 2 0 0 1 2 2v6.6a2 2 0 0 1-.6 1.4l-7.5 7.5a2 2 0 0 1-2.8 0l-5.6-5.6a2 2 0 0 1 0-2.8Z"/><circle cx="16" cy="8" r="1.4" fill="currentColor" stroke="none"/></svg></div>
+          <h3>Despachar</h3>
+          <p>A etiqueta nasce pronta: o NyxLog pré-posta nos Correios, cria o pacote na Loggi e imprime sozinho.</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><rect x="7" y="11" width="3" height="6" rx="1"/><rect x="13" y="7" width="3" height="10" rx="1"/></svg></div>
+          <h3>Decidir</h3>
+          <p>Dashboards financeiros e operacionais que mostram desempenho, gargalos e custo por entrega na hora.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RECURSOS ===================== -->
+  <section class="section section-alt" id="recursos">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Recursos</span>
+        <h2>Tudo que a sua operação precisa — e nada que atrapalhe.</h2>
+      </div>
+
+      <div class="features">
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 15.5a5 5 0 0 0 0-7M6 6a9 9 0 0 0 0 12M18 18a9 9 0 0 0 0-12"/></svg></div>
+          <h3>Rastreamento em tempo real</h3>
+          <p>Acompanhe cada encomenda com status, localização e linha do tempo unificada de todas as transportadoras.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><path d="M6 18H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-1"/><rect x="7" y="15" width="10" height="6" rx="1"/><path d="M17 12h.01"/></svg></div>
+          <h3>Etiquetagem automática</h3>
+          <p>Pré-postagem SEDEX/PAC nos Correios e criação de pacotes na Loggi — a etiqueta imprime sozinha, com o código oficial.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.5"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="m6.5 6.5 3.7 3.7M17.5 6.5l-3.7 3.7M6.5 17.5l3.7-3.7M17.5 17.5l-3.7-3.7"/></svg></div>
+          <h3>Integrações nativas</h3>
+          <p>Correios, Loggi e outras transportadoras conversando direto com o sistema. Sem copiar e colar código de rastreio.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Portal do cliente</h3>
+          <p>Seus clientes e destinatários consultam entregas sozinhos, reduzindo ligações e tickets de "cadê meu pedido?".</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m7 14 3.5-3.5 3 3L21 7"/><path d="M21 11V7h-4"/></svg></div>
+          <h3>Dashboards & BI</h3>
+          <p>Indicadores financeiros e operacionais em painéis visuais: faturamento, volume, prazos e performance.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/><path d="M9 2h6"/><path d="m19 5 1.5 1.5"/></svg></div>
+          <h3>Previsão de entrega</h3>
+          <p>Estimativas de prazo e análise de performance de entregas para antecipar atrasos antes do cliente reclamar.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><path d="M20 15a2 2 0 0 1-2 2h-1v-5h1a2 2 0 0 1 2 2Z"/><path d="M4 15a2 2 0 0 0 2 2h1v-5H6a2 2 0 0 0-2 2Z"/><path d="M18 17v1a3 3 0 0 1-3 3h-2"/></svg></div>
+          <h3>Helpdesk integrado</h3>
+          <p>Abertura e acompanhamento de tickets no padrão service desk, ligados direto às encomendas.</p>
+        </article>
+        <article class="feature">
+          <div class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg></div>
+          <h3>Remetentes & contratos</h3>
+          <p>Gestão de remetentes, contratos de transportadora e regras de despacho por cliente, tudo centralizado.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMO FUNCIONA ===================== -->
+  <section class="section" id="como">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Como funciona</span>
+        <h2>Da coleta à entrega em 4 passos.</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Cadastre a encomenda</h3>
+          <p>Importe a NF-e ou registre o pedido. O NyxLog organiza remetente, destinatário e transportadora.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Etiquete automático</h3>
+          <p>Um clique: o sistema pré-posta nos Correios ou cria o pacote na Loggi e imprime a etiqueta oficial.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Despache</h3>
+          <p>Pacote pronto para a coleta, com código de rastreio já vinculado e tudo registrado na plataforma.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Acompanhe</h3>
+          <p>Rastreio em tempo real, previsão de entrega e o cliente consultando sozinho pelo portal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FISCAL ===================== -->
+  <section class="fiscal" id="fiscal">
+    <div class="fiscal-glow"></div>
+    <div class="container">
+      <div class="section-head section-head-light">
+        <span class="kicker kicker-gold">Fiscal completo</span>
+        <h2>Emita seus documentos fiscais<br>sem sair do sistema.</h2>
+        <p class="lead lead-light">
+          CT-e, MDF-e e nota fiscal transmitidos direto para a SEFAZ, vinculados
+          à encomenda e ao financeiro. Nada de sistema fiscal à parte.
+        </p>
+      </div>
+
+      <div class="fiscal-grid">
+        <article class="fiscal-card">
+          <div class="fiscal-tag">CT-e</div>
+          <h3>Conhecimento de Transporte</h3>
+          <p>Emissão, cancelamento, carta de correção e averbação de seguro — com controle de séries e numeração.</p>
+        </article>
+        <article class="fiscal-card">
+          <div class="fiscal-tag">MDF-e</div>
+          <h3>Manifesto de Documentos</h3>
+          <p>Geração do manifesto eletrônico, DAMDFE e transmissão direta à SEFAZ para cada viagem.</p>
+        </article>
+        <article class="fiscal-card">
+          <div class="fiscal-tag">NFS-e</div>
+          <h3>Nota Fiscal de Serviço</h3>
+          <p>Emissão de nota fiscal de serviço eletrônica direto da plataforma, pronta para o seu município.</p>
+        </article>
+        <article class="fiscal-card">
+          <div class="fiscal-tag">NF-e</div>
+          <h3>Importação de NF-e</h3>
+          <p>Importe a nota do cliente e o NyxLog já gera a encomenda com remetente, destinatário e valores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FINANCEIRO ===================== -->
+  <section class="section section-alt" id="financeiro">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Financeiro</span>
+        <h2>Um financeiro de verdade dentro do seu TMS.</h2>
+        <p class="lead">Faturou? O NyxLog já emite o boleto, lança no contas a receber e atualiza o fluxo de caixa. Tudo ligado à operação — sem digitar duas vezes.</p>
+      </div>
+
+      <div class="fin-wrap">
+        <div class="fin-list">
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2v20l2-1.3L9 22l2-1.3L13 22l2-1.3L17 22l2-1.3V2l-2 1.3L15 2l-2 1.3L11 2 9 3.3 7 2Z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><div><b>Faturamento</b><p>Gere faturas por cliente/loja agrupando CT-es e encomendas, com envio automático.</p></div></div>
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/><path d="M6 15h4"/></svg></span><div><b>Boletos</b><p>Emissão de boleto bancário com cálculo de juros, multa e vencimento.</p></div></div>
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2"/><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H5a2 2 0 0 1-2-2Z"/><circle cx="16.5" cy="13" r="1.3" fill="currentColor" stroke="none"/></svg></span><div><b>Contas a pagar e receber</b><p>Títulos, baixas, adiantamentos e transferências em um só lugar.</p></div></div>
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3l2.5 6 4-13 2.5 7h5"/></svg></span><div><b>Fluxo de caixa & DRE</b><p>Previsto x realizado, resultado por conta e DRE sempre atualizado.</p></div></div>
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-6 9 6"/><path d="M4 9h16"/><path d="M6 9v9M10 9v9M14 9v9M18 9v9"/><path d="M3 21h18"/></svg></span><div><b>Conciliação bancária</b><p>Importe o extrato e concilie contas, centro de custo e plano de contas.</p></div></div>
+          <div class="fin-item"><span class="fin-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17V5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h1"/><path d="M14 17h-4"/><path d="M15 17h1a1 1 0 0 0 1-1v-3l-2.5-3H14"/><path d="M10 8h4v9"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span><div><b>Comissões & margem de frete</b><p>Comissão de motoristas, despesas de viagem e margem real por frete.</p></div></div>
+        </div>
+
+        <div class="fin-visual">
+          <div class="fin-dash">
+            <div class="fin-dash-head"><span>Fluxo de caixa</span><em>este mês</em></div>
+            <div class="fin-kpis">
+              <div><small>A receber</small><strong class="up">R$ 184k</strong></div>
+              <div><small>A pagar</small><strong class="down">R$ 92k</strong></div>
+              <div><small>Resultado</small><strong>R$ 92k</strong></div>
+            </div>
+            <div class="fin-chart">
+              <span style="--h:45%"></span><span style="--h:62%"></span><span style="--h:38%"></span>
+              <span style="--h:78%"></span><span style="--h:55%"></span><span style="--h:88%"></span>
+              <span style="--h:70%"></span><span style="--h:95%"></span>
+            </div>
+            <div class="fin-dash-foot"><span class="pulse-ok"></span> 18 faturas emitidas · 12 boletos pagos hoje</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTEGRAÇÕES ===================== -->
+  <section class="section section-alt" id="integracoes">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Integrações</span>
+        <h2>Conectado com quem leva a sua encomenda.</h2>
+        <p class="lead">O NyxLog fala a língua das transportadoras — gerando etiquetas e rastreando direto na origem.</p>
+      </div>
+      <div class="integra-logos">
+        <div class="integra-card"><img src="assets/correios.png" alt="Correios" /></div>
+        <div class="integra-card"><img src="assets/loggi.png" alt="Loggi" /></div>
+        <div class="integra-card more-card"><span>+ muito mais</span><small>novas integrações sempre chegando</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DIFERENCIAIS ===================== -->
+  <section class="section">
+    <div class="container why-wrap">
+      <div class="why-copy">
+        <span class="kicker">Por que NyxLog</span>
+        <h2>Feito por quem vive a operação, não por quem só desenhou slides.</h2>
+        <ul class="why-list">
+          <li><b>Tudo em um só sistema</b> — operação, fiscal e financeiro sem integrar três softwares.</li>
+          <li><b>Etiqueta de verdade automática</b> — pré-postagem e impressão sem digitar nada.</li>
+          <li><b>Fiscal sem dor de cabeça</b> — CT-e, MDF-e e nota fiscal transmitidos direto à SEFAZ.</li>
+          <li><b>Menos tickets</b> — o portal do cliente responde "cadê meu pedido" por você.</li>
+          <li><b>Decisão com dados</b> — dashboards financeiros e operacionais em tempo real.</li>
+          <li><b>Pronto para escalar</b> — do primeiro envio ao milésimo, sem travar.</li>
+        </ul>
+      </div>
+      <div class="why-visual">
+        <blockquote class="quote">
+          <div class="quote-mark">“</div>
+          <p>Antes a gente perdia horas emitindo etiqueta e respondendo cliente. Com o NyxLog isso virou um clique — e a operação finalmente enxerga tudo em tempo real.</p>
+          <footer><b>Operação logística</b><span>Cliente NyxLog</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA / CONTATO ===================== -->
+  <section class="cta" id="contato">
+    <div class="cta-glow"></div>
+    <div class="container cta-inner">
+      <img src="assets/owl-gold.png" alt="" class="cta-owl" />
+      <h2>Pronto para enxergar toda a sua logística?</h2>
+      <p>Agende uma demonstração e veja o NyxLog rastreando, etiquetando e analisando a sua operação ao vivo.</p>
+      <div class="cta-actions">
+        <a href="mailto:contato@nyxlog.com.br?subject=Quero%20uma%20demonstra%C3%A7%C3%A3o%20do%20NyxLog" class="btn btn-gold">Agendar demonstração</a>
+        <a href="https://wa.me/?text=Ol%C3%A1!%20Quero%20conhecer%20o%20NyxLog" class="btn btn-outline">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="brand">
+          <img src="assets/owl-gold.png" alt="" class="brand-owl" />
+          <span class="brand-name">Nyx<span class="brand-accent">Log</span></span>
+        </a>
+        <p>A logística que enxerga no escuro. Plataforma completa de gestão de entregas, etiquetagem e rastreamento.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Produto</h4>
+        <a href="#recursos">Recursos</a>
+        <a href="#como">Como funciona</a>
+        <a href="#integracoes">Integrações</a>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <a href="#produto">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato">Demonstração</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <a href="mailto:contato@nyxlog.com.br">contato@nyxlog.com.br</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> NyxLog · Todos os direitos reservados.</span>
+      <span class="made">Feito com 🦉</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
