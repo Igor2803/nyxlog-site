@@ -350,13 +350,74 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; letter-spac
     position: fixed; top: 0; right: 0; bottom: 0; width: 76%; max-width: 300px;
     flex-direction: column; align-items: flex-start; gap: 18px;
     background: var(--ink); padding: 100px 30px 30px; transform: translateX(100%);
-    transition: transform .35s ease; box-shadow: -20px 0 50px rgba(0,0,0,.4); z-index: 99;
+    transition: transform .35s ease; z-index: 99;
   }
-  .nav.open { transform: translateX(0); }
+  /* sombra só com o menu aberto — fechado ela vazava na borda direita */
+  .nav.open { transform: translateX(0); box-shadow: -20px 0 50px rgba(0,0,0,.4); }
   .nav a { color: #fff !important; font-size: 18px; }
   .menu-toggle { display: flex; }
-  .eyebrow { font-size: 11px; letter-spacing: .02em; padding: 6px 12px; }
-  .hero { padding: 140px 0 90px; }
+
+  /* Hero compacto */
+  .eyebrow { display: none; }
+  .hero { padding: 108px 0 48px; }
+  .hero h1 { font-size: 36px; margin-bottom: 16px; }
+  .hero-sub { font-size: 16px; margin-bottom: 26px; }
+  .hero-actions { flex-direction: column; gap: 12px; margin-bottom: 28px; }
+  .hero-actions .btn { width: 100%; }
+  .hero-trust { gap: 12px; }
+  .hero-visual { height: 230px; margin-top: 0; }
+  .hero-owl { width: 130px; }
+  .owl-ring { width: 190px; height: 190px; }
+  .owl-ring.ring2 { width: 250px; height: 250px; }
+  .hero-glow { width: 420px; height: 420px; }
+
+  /* Seções mais enxutas */
+  .stats { padding: 36px 0; }
+  .stat-label { font-size: 13px; }
+  .section, .fiscal { padding: 60px 0; }
+  .section-head { margin-bottom: 34px; }
+  .section-head h2 { font-size: 27px; margin-bottom: 14px; }
+  .section-head h2 br { display: none; }
+  .lead { font-size: 16px; }
+
+  /* Cards com ícone ao lado do título */
+  .pillars, .features, .fiscal-grid { gap: 14px; }
+  .pillar, .feature { display: grid; grid-template-columns: 46px 1fr; column-gap: 14px; align-items: center; padding: 20px 18px; }
+  .pillar-ico, .feat-ico { width: 46px; height: 46px; border-radius: 13px; margin: 0; }
+  .pillar-ico svg, .feat-ico svg { width: 22px; height: 22px; }
+  .pillar h3, .feature h3 { font-size: 17px; margin: 0; }
+  .pillar p, .feature p { grid-column: 1 / -1; margin-top: 12px; font-size: 14.5px; }
+  .fiscal-card { padding: 20px 18px; }
+  .fiscal-tag { margin-bottom: 12px; }
+
+  /* Passos com número ao lado */
+  .steps { gap: 22px; }
+  .step { display: grid; grid-template-columns: 44px 1fr; column-gap: 14px; align-items: center; padding-top: 0; }
+  .step-num { width: 44px; height: 44px; font-size: 16px; margin: 0; box-shadow: 0 8px 20px rgba(212,160,23,.3); }
+  .step h3 { margin: 0; }
+  .step p { grid-column: 2; margin-top: 4px; }
+
+  .fin-list { gap: 18px; }
+  .fin-dash { padding: 22px 18px; }
+  .fin-kpis strong { font-size: 17px; }
+
+  .integra-logos { gap: 12px; }
+  .integra-card { width: calc(50% - 6px); height: 100px; }
+  .integra-card img { max-height: 38px; }
+  .more-card { width: 100%; height: 90px; }
+
+  .why-copy h2 { font-size: 27px; margin: 10px 0 22px; }
+  .why-list li { font-size: 15px; }
+  .quote { padding: 34px 24px 28px; }
+  .quote p { font-size: 17px; }
+
+  .cta { padding: 64px 0; }
+  .cta h2 { font-size: 28px; }
+  .cta p { font-size: 16px; margin-bottom: 26px; }
+  .cta-actions { flex-direction: column; gap: 12px; }
+  .cta-actions .btn { width: 100%; }
+  .footer { padding: 48px 0 24px; }
+  .footer-inner { gap: 28px; margin-bottom: 32px; }
   /* backdrop ao abrir o menu */
   .nav-backdrop { position: fixed; inset: 0; background: rgba(0,1,32,.55); backdrop-filter: blur(2px); opacity: 0; visibility: hidden; transition: opacity .3s ease; z-index: 98; }
   .nav-backdrop.show { opacity: 1; visibility: visible; }
@@ -369,9 +430,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; letter-spac
   .fiscal-grid { grid-template-columns: 1fr; }
   .fin-list { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: repeat(2,1fr); gap: 30px 20px; }
+  .stats-grid { grid-template-columns: repeat(2,1fr); gap: 26px 16px; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 10px; }
-  .section { padding: 72px 0; }
   .float-card { display: none; }
 }
