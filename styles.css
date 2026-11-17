@@ -312,7 +312,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; letter-spac
 
 /* ===================== FOOTER ===================== */
 .footer { background: #000120; color: rgba(255,255,255,.65); padding: 64px 0 28px; }
-.footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 44px; }
+.footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 44px; }
 .footer-brand .brand { margin-bottom: 16px; }
 .footer-brand .brand-name { color: #fff; }
 .footer-brand p { font-size: 14px; max-width: 320px; }
@@ -344,6 +344,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; letter-spac
   .step::before { display: none; }
   .why-wrap { grid-template-columns: 1fr; gap: 36px; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
+  .footer-brand { grid-column: 1 / -1; }
 }
 @media (max-width: 680px) {
   .nav {
